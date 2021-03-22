@@ -1,0 +1,7 @@
+DEPENDENCIES
+  wanda
+    path: .
+    metadata: true
+
+GRAPH
+  wanda (1.0.0)
