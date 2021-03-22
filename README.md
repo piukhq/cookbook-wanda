@@ -8,4 +8,4 @@ page_title: "Wanda"
 
 Deploys RabbitMQ and LetsEncrypt Certificates for use in RabbitMQ Clusters.
 
-![Wanda Maximoff enjoying a buscuit](wanda.gif)
+![Wanda Maximoff enjoying a buscuit](https://git.bink.com/Cookbooks/wanda/-/raw/master/wanda.gif)
