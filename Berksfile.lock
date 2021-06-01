@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  wanda (1.0.0)
+  wanda (1.0.1)
