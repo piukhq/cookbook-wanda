@@ -12,7 +12,7 @@ apt_repository 'rabbitmq' do
   uri 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-server/deb/ubuntu'
   distribution 'focal'
   components ['main']
-  key 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/gpg.E495BB49CC4BBE5B.key'
+  key 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-server/gpg.9F4587F226208342.key'
   action :add
 end
 
