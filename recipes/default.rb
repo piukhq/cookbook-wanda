@@ -1,18 +1,18 @@
 package 'apt-transport-https'
 
 apt_repository 'erlang' do
-  uri 'https://dl.bintray.com/rabbitmq-erlang/debian'
+  uri 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/deb/ubuntu'
   distribution 'focal'
-  components ['erlang']
-  key 'https://github.com/rabbitmq/signing-keys/releases/download/2.0/rabbitmq-release-signing-key.asc'
+  components ['main']
+  key 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/gpg.E495BB49CC4BBE5B.key'
   action :add
 end
 
 apt_repository 'rabbitmq' do
-  uri 'https://dl.bintray.com/rabbitmq/debian'
+  uri 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-server/deb/ubuntu'
   distribution 'focal'
   components ['main']
-  key 'https://github.com/rabbitmq/signing-keys/releases/download/2.0/rabbitmq-release-signing-key.asc'
+  key 'https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/gpg.E495BB49CC4BBE5B.key'
   action :add
 end
 
